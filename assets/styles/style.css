@@ -13,7 +13,7 @@ body {
     padding-top: 0.1vw;
     margin: 0;
     margin-top: 2em;
-    margin-bottom 2em;
+    margin-bottom: 2em;
     font-family: 'Comfortaa';
     background: linear-gradient(to top right, #584bad, slateblue, lightblue, royalblue, #163fba);
     background-attachment: fixed;
@@ -34,7 +34,7 @@ header{
     text-shadow: 2px 2px white;
     padding-left: 1.25em;
     color: black;
-    font-size: 3.5em;
+    font-size: 3.08em;
 }
 nav, nav > ul {
     text-align: right;
