@@ -1,0 +1,158 @@
+a {
+    text-decoration: none;
+    color: pink;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: darkblue;
+}
+body {
+    padding: 2vw;
+    padding-top: 0.1vw;
+    margin: 0;
+    margin-top: 2em;
+    margin-bottom 2em;
+    font-family: 'Comfortaa';
+    background: linear-gradient(to top right, #584bad, slateblue, lightblue, royalblue, #163fba);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+header{
+    text-align: center;
+}
+#topHead {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1.5px black;
+    background:linear-gradient(to left top, royalblue, white, slateblue);
+}
+#headH1 {
+    text-shadow: 2px 2px white;
+    padding-left: 1.25em;
+    color: black;
+    font-size: 3.5em;
+}
+nav, nav > ul {
+    text-align: right;
+    list-style-type: none;
+}
+#nav {
+    padding-right: 0.75em;
+    padding-top: 2.5em;
+    font-size: 2em;
+}
+section {
+    border: 1px inset #26465F;
+    border-radius: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 2vw;
+    box-shadow: 1px 1.5px black;
+}
+.secHeads {
+    font-size: 3em;
+}
+.secText {
+    font-size: 2em;
+}
+#introSec {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 40vw;
+    background-image: url("https://i.imgur.com/PpELmf6.jpg");
+    background-size: 80%;
+    background-position: calc(-5vw) center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 1px 1px lightgray;
+    border-radius: 0 !important;
+}
+#coolSec {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 55vw;
+    margin-left: auto;
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: whitesmoke;
+    background-image: url("https://i.imgur.com/6wfiGEc.jpg");
+    background-attachment: fixed;
+    background-size: contain;
+} 
+#sumSec {
+    color: cornsilk;
+    text-shadow: 2px 2px lightsteelblue;
+    background-color: whitesmoke;
+    background-image: url("https://i.imgur.com/gWiJN1H.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+aside {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, slategray 50%, lightslategray 50%);
+    color: black;
+    text-shadow: 1px 1px white;
+    font-family: 'Oswald';
+    border-radius: 15px;
+}
+#aboutHead {
+    text-decoration: underline;
+    font-size: 1.75em;
+    width: 50%;
+    text-align: center;
+    background-color: slategray;
+    background: repeating-linear-gradient(45deg, slategray, slategray 5px, lightslategray 5px, lightslategray 25px);
+    background-attachment: fixed;
+}
+#aboutList {
+    width: 50%;
+    text-align: center;
+    background-color: lightslategray;
+    background: repeating-linear-gradient(-45deg, lightslategray, lightslategray 5px, slategray 5px, slategray 25px);
+    background-attachment: fixed;
+}
+#aboutList, #aboutList > ul {
+    list-style-type: none;
+    font-size: 1.15em;
+    font-family: 'Oswald';
+    font-weight: 600;
+}
+footer {
+    max-width: 100vw;
+    width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2vw;
+    padding-bottom: 1.5vw;
+    border: 2px black;
+    border-style: solid double solid double;
+    border-radius: 15px;
+    background-color: slateblue;
+    background-image: url("https://i.imgur.com/CNEp07s.jpg");
+    background-size: 80%;
+    background-attachment: fixed;
+}
+footer > h4 {
+    display: block;
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+}
+footer * {
+    font-family: 'Bitter';
+}
+footer > div > ul {
+    margin: 0;
+    padding: 0;
+}
+footer > div > ul > li {
+    list-style-type: none;
+}
